@@ -1,28 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\denis\\OneDrive\\Desktop\\postgresposhelnah\\postgresposhelnah\\postgresposhelnah.csproj": {}
+    "C:\\Users\\danya\\Source\\Repos\\Test\\postgresposhelnah\\postgresposhelnah.csproj": {}
   },
   "projects": {
-    "C:\\Users\\denis\\OneDrive\\Desktop\\postgresposhelnah\\postgresposhelnah\\postgresposhelnah.csproj": {
+    "C:\\Users\\danya\\Source\\Repos\\Test\\postgresposhelnah\\postgresposhelnah.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\denis\\OneDrive\\Desktop\\postgresposhelnah\\postgresposhelnah\\postgresposhelnah.csproj",
+        "projectUniqueName": "C:\\Users\\danya\\Source\\Repos\\Test\\postgresposhelnah\\postgresposhelnah.csproj",
         "projectName": "postgresposhelnah",
-        "projectPath": "C:\\Users\\denis\\OneDrive\\Desktop\\postgresposhelnah\\postgresposhelnah\\postgresposhelnah.csproj",
-        "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\denis\\OneDrive\\Desktop\\postgresposhelnah\\postgresposhelnah\\obj\\",
+        "projectPath": "C:\\Users\\danya\\Source\\Repos\\Test\\postgresposhelnah\\postgresposhelnah.csproj",
+        "packagesPath": "C:\\Users\\danya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danya\\Source\\Repos\\Test\\postgresposhelnah\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\danya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -70,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
