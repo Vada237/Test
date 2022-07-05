@@ -11,7 +11,7 @@ namespace postgresposhelnah.Service
             // Создание структуры передаваемого сообщения
             var emailMessage = new MimeMessage()
             {
-                // Кому
+                // Заголовок
                 Subject = subject,
                 // Содержимое письма
                 Body = new TextPart(MimeKit.Text.TextFormat.Html)

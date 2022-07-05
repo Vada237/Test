@@ -60,14 +60,17 @@ namespace postgresposhelnah.Controllers
 
             if (result.Succeeded)
             {
+                // Создание ссылки для подтверждения почты
                 var code = await UserManager.GenerateEmailConfirmationTokenAsync(user);
+                // Действия при переходе по ссылке
                 var callBackUrl = Url.Action(
-                    "ConfirmEmail",
-                    "Account",
-                    new { userId = user.Id, code = code },
-                    protocol: HttpContext.Request.Scheme);
+                    "ConfirmEmail", // Действие
+                    "Account", // Контроллер
+                    new { userId = user.Id, code = code }, // Модель
+                    protocol: HttpContext.Request.Scheme); // URL
 
-                EmailConfirmService service = new EmailConfirmService();
+                // Создание обьекта для передачи ссылки по почте. Cам сервис лежит в папке Service
+                EmailConfirmService service = new EmailConfirmService(); 
                 await service.SendEmailAsync(model.Email, "Confirm Your Account", $"Follow to link to confirm your Account <a href='{callBackUrl}'><br/>Link</a>");
                 return View("Confirm");
             }
@@ -76,7 +79,7 @@ namespace postgresposhelnah.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-
+        // Метод для подтверждения почты
         public async Task<IActionResult> ConfirmEmail(string userId,string code)
         {
             if (userId == null || code == null)
