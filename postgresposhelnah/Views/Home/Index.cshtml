@@ -5,3 +5,9 @@
 <a class="btn btn-success">Денис</a>
 <a class="btn btn-danger">Данил</a>
 <a class="btn btn-danger">Иван</a>
+@if(User.Identity.IsAuthenticated == true) {
+    <a class="btn btn-outline-primary" asp-action="Logout" asp-controller="Account">Log out</a>
+} else
+{
+    <a class="btn btn-outline-primary" asp-action="Login" asp-controller="Account">Sign in</a>
+}

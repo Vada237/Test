@@ -1,0 +1,14 @@
+﻿@model Appuser
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2">
+            <h4>Email: @Model.Email</h4>
+            <h4>Confirmed: @Model.EmailConfirmed</h4>
+        </div>
+    </div>
+</div>
+
+<a class="btn btn-outline-danger" asp-action="Logout">
+    Logout
+</a>
