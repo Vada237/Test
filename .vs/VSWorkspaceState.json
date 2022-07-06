@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\postgresposhelnah",
+    "\\postgresposhelnah\\Controllers",
+    "\\postgresposhelnah\\Service"
   ],
-  "SelectedNode": "\\postgresposhelnah.sln",
   "PreviewInSolutionExplorer": false
 }
