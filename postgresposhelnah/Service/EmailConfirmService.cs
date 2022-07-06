@@ -31,7 +31,9 @@ namespace postgresposhelnah.Service
                 // Подключение к поставщику email. У каждого поставщика свои сервера и порты
                 await client.ConnectAsync("smtp.gmail.com", 465, true);
                 // Аутентификация отправителя. Здесь я подключил пароль приложения, через настройки Gmail аккаунта
+
                 await client.AuthenticateAsync("valera.skripa4@gmail.com", "dmvtkgwsrcszubva");
+
                 // Отправка ссылки 
                 await client.SendAsync(emailMessage);
                 // Выход отправителя
